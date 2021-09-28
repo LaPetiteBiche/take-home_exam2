@@ -1,0 +1,1 @@
+d) Yes it seems to converge as the itteration error converges to 0 in both case. The convergence is computed at line 128 from main.cpp for Lecture10/Projects/DynamicProgramming/openmp_DP and at line 110 from main.cpp for Lecture11/demo/DynamicProgramming/MPI_DP.

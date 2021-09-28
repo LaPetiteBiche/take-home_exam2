@@ -1,0 +1,15 @@
+# Create a library from the object code.
+librotate_scale.a: rotate_scale.o
+	ar rvs $@ $^
+
+# Object code depending on header and implementation.
+rotate_scale.o: rotate_scale.cpp rotate_scale.hpp
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Always offer a way to clean up!
+.PHONY: clean
+clean:
+	rm -f *.o *.a
+
+
+

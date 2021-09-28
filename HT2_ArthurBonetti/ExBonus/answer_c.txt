@@ -1,0 +1,1 @@
+I decided to reduce the n to 100 million points because it took an eternity with 1 MPI process. I don't think my program is working overall. There is no scaling in my outputs.

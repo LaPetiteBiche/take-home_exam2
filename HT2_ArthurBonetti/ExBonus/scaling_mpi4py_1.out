@@ -1,0 +1,3 @@
+With n = 100000000 our estimate of pi from is [3.14159265]
+pi is approximately 3.1415926535904264, error is 0.0000000000006333
+That took 18.38181185722351 seconds
